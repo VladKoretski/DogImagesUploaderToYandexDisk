@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+Thumbs.db
+desctop.ini
+.idea/
