@@ -4,5 +4,7 @@ __pycache__/
 Thumbs.db
 desctop.ini
 .idea/
-settings.py
+config.py
 .env
+*.json
+app.log
