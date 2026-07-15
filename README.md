@@ -41,9 +41,7 @@ pip install -r requirements.txt
 1. Получите OAuth-токен Яндекс.Диска:
 2. Создайте файл `config.py` в корне проекта со следующим содержимым:
 
-```python
 YANDEX_DISK_TOKEN = [here put your real token gotten on yandex poligon](https://yandex.ru/dev/disk/poligon/?ysclid=mrmdwe4gy1346957723)
-```
 
 ## Использование
 Запустите основной скрипт в среде разработке или через терминал:
