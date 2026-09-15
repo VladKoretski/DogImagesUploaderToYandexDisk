@@ -4,6 +4,7 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+BASE_URL = 'https://cloud-api.yandex.net/v1/disk/resources'
 
 class YandexDisk:
     """
@@ -18,7 +19,6 @@ class YandexDisk:
         delay (float): Задержка между попытками (сек).
     """
 
-    BASE_URL = 'https://cloud-api.yandex.net/v1/disk/resources'
 
     def __init__(self, user_token, timeout=30, retries=3, delay=1.0):
         """
